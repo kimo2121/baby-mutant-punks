@@ -1,0 +1,25 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+.collection {
+  margin-top: 150px;
+}
+.each-item {
+  width: 333px;
+  height: 333px;
+  margin: 20px 0;
+}
+.each-item img {
+  margin: 20px auto;
+}
+.collection h1 {
+  color: white;
+  font-size: 58px;
+}
+.collection .slick-slide {
+  width: fit-content !important;
+  margin: 0 20px !important;
+}
+.collection .slick-track {
+  width: fit-content !important;
+  display: flex !important;
+}

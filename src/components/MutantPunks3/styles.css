@@ -1,0 +1,64 @@
+.about-mutant-punks {
+  display: flex;
+  flex-direction: column;
+  width: 1445px;
+  margin: 5vh auto;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.about-mutant-punks img {
+  margin: 2vh 0;
+}
+
+.about-mutant-punks p {
+  margin: 4vh auto;
+  width: 35%;
+  color: white;
+}
+.about-right-punk {
+  display: flex;
+}
+.about-right-punk img {
+  width: 287px;
+  height: 287px;
+  margin: 20px;
+}
+
+@media screen and (max-width: 1500px) {
+  .about-mutant-punks {
+    width: 1024px;
+  }
+
+  .about-right-punk img {
+    width: 187px;
+    height: 187px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .about-mutant-punks {
+    width: 950px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .about-mutant-punks {
+    width: 100%;
+  }
+  .about-right-punk {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about-right-punk {
+    flex-direction: column;
+    display: flex;
+  }
+  .about-right-punk img {
+    width: 90%;
+    height: 90%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .about-mutant-punks img {
+    width: 90%;
+  }
+}

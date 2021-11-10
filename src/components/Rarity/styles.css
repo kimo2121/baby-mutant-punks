@@ -1,0 +1,23 @@
+.rarity {
+  width: fit-content;
+  margin: 10vh auto;
+}
+.nfts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rarity h1 {
+  color: white;
+}
+
+.nfts {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1380px) {
+  .rarity {
+    width: 100%;
+  }
+}

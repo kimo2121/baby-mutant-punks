@@ -1,0 +1,11 @@
+.bk1,
+.bk2 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(/src/assets/Banner1.png);
+  width: 100%;
+}
+.bk2 {
+  background-image: url(/src/assets/Banner2.png);
+}

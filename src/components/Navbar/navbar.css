@@ -1,0 +1,110 @@
+.navbar {
+  width: 90%;
+  margin: 0 auto;
+  height: 177px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.internal-links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.mob-menu {
+  width: 320px;
+  height: 100%;
+  position: fixed;
+  right: -110%;
+  top: 0;
+  transition: all 0.3s;
+  background-color: black;
+  z-index: 1000;
+  display: flex;
+  padding-top: 80px;
+  flex-direction: column;
+}
+.mob-menu a {
+  color: white;
+  margin: 10px 0;
+  text-decoration: none;
+}
+.mob-menu.active {
+  right: 0;
+}
+.close-icon {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  fill: white;
+}
+.menu-icon {
+  fill: white;
+  display: none;
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+.connect-btn,
+.mob-connect-btn {
+  width: 247px;
+  height: 52px;
+  border-radius: 8px;
+  font-size: 23px;
+  font-weight: 400;
+  color: white;
+  border: none;
+  outline: none;
+  background: linear-gradient(#ffc004, #997404);
+}
+.mob-connect-btn {
+  display: none;
+}
+.mob-menu-btn-container {
+  display: none;
+}
+@media screen and (max-width: 1200px) {
+  .logo img {
+    width: 300px;
+  }
+
+  .connect-btn {
+    width: 200px;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .logo img {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+  .mob-menu-btn-container {
+    display: flex;
+    align-items: center;
+  }
+  .internal-links {
+    display: none;
+  }
+  .mob-connect-btn {
+    display: block;
+  }
+}
+@media screen and (max-width: 576px) {
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .mob-menu-btn-container {
+    flex-direction: column;
+  }
+  .menu-icon {
+    margin: 20px 0;
+  }
+}

@@ -1,0 +1,133 @@
+.mutant-punks {
+  display: flex;
+  width: 1445px;
+  margin: 0 auto;
+  margin-top: 5vh;
+}
+.left-punk {
+  width: 620px;
+  color: white;
+  text-align: left;
+  margin-right: 30px;
+}
+.left-punk > p {
+  margin: 4vh 0;
+}
+.right-punk {
+  display: flex;
+}
+.right-punk img {
+  width: 333px;
+  height: 333px;
+}
+.right-down,
+.right-top {
+  width: 335px;
+  margin: 0 30px;
+}
+.right-down {
+  margin-top: 100px;
+}
+.right-down img,
+.right-top img {
+  margin: 30px 0;
+}
+.join-btn-p {
+  border-radius: 8px;
+  width: 615px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.404);
+  padding: 5px 10px;
+}
+.join-btn-p p {
+  width: 341px;
+}
+.join-btn-p button {
+  border-radius: 8px;
+  border: none;
+  width: 170px;
+  color: white;
+  height: 62px;
+  background: linear-gradient(#ffc004, #997404);
+}
+@media screen and (max-width: 1500px) {
+  .mutant-punks {
+    width: 1024px;
+  }
+  .join-btn-p {
+    width: 400px !important;
+  }
+  .left-punk {
+    width: 450px;
+  }
+
+  .right-punk img {
+    width: 233px;
+    height: 233px;
+  }
+  .right-down,
+  .right-top {
+    width: 235px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .mutant-punks {
+    width: 950px;
+  }
+  .left-punk {
+    width: 390px;
+  }
+
+  .join-btn-p {
+    width: 390px;
+  }
+  .right-punk img {
+    width: 203px;
+    height: 203px;
+  }
+  .right-down,
+  .right-top {
+    width: 205px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .mutant-punks {
+    flex-direction: column;
+    align-items: center;
+  }
+  .mutant-punks {
+    width: 100%;
+  }
+  .left-punk {
+    width: 90%;
+    margin: 0;
+  }
+
+  .join-btn-p {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .right-punk {
+    flex-direction: column;
+    display: flex;
+  }
+  .right-punk img {
+    width: 90%;
+    height: 90%;
+  }
+  .right-down,
+  .right-top {
+    width: 100%;
+    margin: 0;
+  }
+  .join-btn-p {
+    width: 90% !important;
+    flex-direction: column;
+  }
+  .join-btn-p p {
+    width: 90% !important;
+  }
+}

@@ -1,0 +1,74 @@
+.arrow {
+  position: absolute;
+  right: 10px;
+  top: 25px;
+  width: 40px;
+  transform: rotate(-90deg);
+  transition: transform 0.5s;
+}
+.arrow.active {
+  transform: rotate(0);
+}
+.faq-component {
+  margin: 15vh 0 5vh 0;
+}
+.faq-component h1 {
+  color: white;
+}
+.minus {
+  display: none;
+}
+.minus.active {
+  display: block;
+}
+.question-styles {
+  font-size: 16px !important;
+  font-weight: 700 !important;
+}
+.accordion-first,
+.accordion-second {
+  width: 50%;
+  margin: 0 10px;
+}
+.accordion-wrpper {
+  width: 1110px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.MuiTypography-root {
+  font-size: 22px !important;
+  font-weight: normal !important;
+}
+@media screen and (max-width: 1200px) {
+  .accordion-wrpper {
+    width: 930px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .accordion-wrpper {
+    width: 690px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .accordion-wrpper {
+    width: 510px;
+  }
+  .accordion-wrpper {
+    flex-direction: column;
+  }
+  .accordion-first,
+  .accordion-second {
+    width: 100%;
+    margin: 0 10px;
+  }
+  .arrow {
+    width: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .accordion-wrpper {
+    width: 90%;
+    align-items: center;
+  }
+}

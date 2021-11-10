@@ -1,0 +1,34 @@
+.timer {
+  display: flex;
+  width: fit-content;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0vh auto;
+}
+
+.timer {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+.timer > div {
+  margin-right: 30px;
+  margin-top: 20px;
+}
+.timer-container {
+  text-align: left;
+}
+.timer-container h1 {
+  color: white;
+  font-size: 42px;
+}
+@media screen and (max-width: 990px) {
+  .timer-container {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .timer {
+    flex-wrap: wrap;
+  }
+}

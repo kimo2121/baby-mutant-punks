@@ -1,0 +1,18 @@
+.att-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1310px;
+  margin: 0 auto;
+}
+.attributes {
+  margin-top: 150px;
+}
+.attributes h1 {
+  color: white;
+}
+@media screen and (max-width: 1400px) {
+  .att-container {
+    width: 100%;
+  }
+}

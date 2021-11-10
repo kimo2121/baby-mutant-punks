@@ -1,0 +1,36 @@
+.roadmap {
+  width: 100%;
+  margin-top: 120px;
+}
+.roadmap > h1 {
+  color: white;
+}
+.roadmap > p {
+  width: 35%;
+  color: white;
+  margin: 0 auto;
+  margin-bottom: 5vh;
+}
+.roadmap .slick-track {
+  width: fit-content !important;
+  display: flex !important;
+}
+.each-road {
+  background-image: url(/src/assets/roadmap.png);
+  width: 412px;
+  height: 527px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+.roadmap .slick-slide {
+  margin: 0 20px !important;
+  width: 400px !important;
+}
+.each-road p {
+  width: 249px;
+  font-size: 20px;
+  margin: 0 auto;
+}

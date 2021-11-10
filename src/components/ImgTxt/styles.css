@@ -1,0 +1,30 @@
+.memberm,
+.single-rarity {
+  margin: 10px 20px;
+  color: white;
+}
+.member img {
+  width: 188px;
+  height: 188px;
+  margin: 20px;
+}
+.member h3,
+.single-rarity h3 {
+  margin: 0;
+  color: white;
+}
+.member span,
+.single-rarity span {
+  opacity: 0.6;
+  color: white;
+}
+.single-rarity img {
+  width: 240px;
+  height: 240px;
+}
+@media screen and (max-width: 1400px) {
+  .single-rarity img {
+    width: 180px;
+    height: 180px;
+  }
+}
