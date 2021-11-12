@@ -5,7 +5,8 @@ import baby2 from "../../assets/baby2.png";
 import baby3 from "../../assets/baby3.png";
 import baby4 from "../../assets/baby4.png";
 import "./styles.css";
-
+import { AiOutlineTwitter } from "react-icons/ai";
+import { FaDiscord } from "react-icons/fa";
 const MutantPunks = () => {
   return (
     <div className="mutant-punks">
@@ -20,7 +21,15 @@ const MutantPunks = () => {
           <p>
             Join us in cultivating an incredible community of online art punks.{" "}
           </p>
-          <button className="join-btn">Join Us →</button>
+          <div className="dis-twit">
+            <a target="_blank" href="https://twitter.com/BabyMutantPunks">
+              <AiOutlineTwitter />
+            </a>
+
+            <a target="_blank" href="http://discord.gg/2DcsRD4Aru">
+              <FaDiscord />
+            </a>
+          </div>
         </div>
       </div>
       <div className="right-punk">

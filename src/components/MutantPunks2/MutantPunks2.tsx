@@ -14,7 +14,9 @@ const MutantPunks2 = () => {
           A collection of 10,000 unique, randomly generated art pieces, hand
           selected by a group of punks subverting the traditional art world.
           <br />
+          <br />
           Join us on our journey of growing an amazing community for the people.
+          <br />
           <br />
           We are giving away 2 Rolexes OR 2 Mutant Ape Yacht Clubs NFT’s, 2
           Degenerate Ape Academy NFT’s, and 50 Baby Mutant Punks. Read Roadmap

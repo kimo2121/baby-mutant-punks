@@ -10,6 +10,22 @@
   text-align: left;
   margin-right: 30px;
 }
+.dis-twit {
+  display: flex;
+}
+.dis-twit a {
+  margin: 5px;
+  display: flex;
+}
+.join-btn-p svg {
+  width: 30px;
+  height: 30px;
+  color: white;
+  transition: color 0.3s;
+}
+.join-btn-p svg:hover {
+  color: #ffc004;
+}
 .left-punk > p {
   margin: 4vh 0;
 }
