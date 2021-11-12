@@ -29,7 +29,7 @@ const Roadmap = () => {
             The <strong>Pre-Sale Drop</strong> is scheduled for{" "}
             <strong>mid-November</strong> @ 3:00 PM (EST). 2,000 Baby Mutant
             Punks will be released on the Solana blockchain at the Pre-Sale
-            Mint, price will be 0.75 Solana.
+            Mint, price will be 0.55 Solana.
           </p>
         </div>
         <div className="each-road">
@@ -50,7 +50,7 @@ const Roadmap = () => {
           <p>
             The <strong>General Public Mint</strong> will be held{" "}
             <strong>late November</strong> @ 3:00 PM (EST). 8,000 Baby Mutant
-            Punks will be released at the Mint price of 0.75 Solana.
+            Punks will be released at the Mint price of 0.55 Solana.
           </p>
         </div>
         <div className="each-road">

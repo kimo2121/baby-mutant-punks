@@ -89,13 +89,11 @@ const CustomizedAccordions: React.FC = () => {
                 <IoIosArrowDropdownCircle
                   className={expanded === "panel1" ? "arrow active" : "arrow"}
                 />
-                Lorem ipsum dolor sit amet, consectetur adipi?
+                WHAT BLOCKCHAIN IS BABY MUTANT PUNKS ON?
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography>
-                Lorem ipsum dolor sit amet, consectetur adipi?
-              </Typography>
+              <Typography>- Solana Blockchain.</Typography>
             </AccordionDetails>
           </Accordion>
           <Accordion
@@ -117,12 +115,13 @@ const CustomizedAccordions: React.FC = () => {
                 <IoIosArrowDropdownCircle
                   className={expanded === "panel2" ? "arrow active" : "arrow"}
                 />
-                Lorem ipsum dolor sit amet, consectetur adipi?
+                HOW CAN I BUY A BABY MUTANT PUNK NFT?
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-                Lorem ipsum dolor sit amet, consectetur adipi?
+                - Simply connect your Solana Wallet to the Mint site! Our mint
+                supports Phantom, Solflare, Slope, and Sollet.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -145,12 +144,16 @@ const CustomizedAccordions: React.FC = () => {
                 <IoIosArrowDropdownCircle
                   className={expanded === "panel3" ? "arrow active" : "arrow"}
                 />
-                Lorem ipsum dolor sit amet, consectetur adipi?
+                WHEN IS THE MINT?
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-                Lorem ipsum dolor sit amet, consectetur adipi?
+                - Pre-Sale - Dec. 2nd @ 3:00 PM PST - When Pre-Sale Sells Out,
+                we will give away a Rolex Submariner with box and papers or
+                Mutant Ape Yacht Club NFT off the floor. Each NFT purchased will
+                be 1 ticket for the Rolex raffle. We will also airdrop 20 NFT to
+                early Pre-Sale minters.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -173,13 +176,11 @@ const CustomizedAccordions: React.FC = () => {
                 <IoIosArrowDropdownCircle
                   className={expanded === "panel4" ? "arrow active" : "arrow"}
                 />
-                Lorem ipsum dolor sit amet, consectetur adipi?
+                HOW MANY NFT’S ARE IN PRE-SALE
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography>
-                Lorem ipsum dolor sit amet, consectetur adipi?
-              </Typography>
+              <Typography>- 2,000 NFT’s.</Typography>
             </AccordionDetails>
           </Accordion>
         </div>
@@ -203,12 +204,13 @@ const CustomizedAccordions: React.FC = () => {
                 <IoIosArrowDropdownCircle
                   className={expanded === "panel5" ? "arrow active" : "arrow"}
                 />
-                Lorem ipsum dolor sit amet, consectetur adipi?
+                WHAT IS THE ROYALTY?
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-                Lorem ipsum dolor sit amet, consectetur adipi?
+                - 5% Royalty - We will give back 50% of the 5% Royalties of
+                secondary sale’s to a few lucky holders each week.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -231,13 +233,11 @@ const CustomizedAccordions: React.FC = () => {
                 <IoIosArrowDropdownCircle
                   className={expanded === "panel6" ? "arrow active" : "arrow"}
                 />
-                Lorem ipsum dolor sit amet, consectetur adipi?
+                WHAT IS THE PRE-SALE MINT PRICE?
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography>
-                Lorem ipsum dolor sit amet, consectetur adipi?
-              </Typography>
+              <Typography>- 0.55 Solana.</Typography>
             </AccordionDetails>
           </Accordion>
           <Accordion
@@ -259,13 +259,11 @@ const CustomizedAccordions: React.FC = () => {
                 <IoIosArrowDropdownCircle
                   className={expanded === "panel7" ? "arrow active" : "arrow"}
                 />
-                Lorem ipsum dolor sit amet, consectetur adipi?
+                WHAT IS GENERAL SALE MINT PRICE?
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography>
-                Lorem ipsum dolor sit amet, consectetur adipi?
-              </Typography>
+              <Typography>- 0.55 Solana.</Typography>
             </AccordionDetails>
           </Accordion>
           <Accordion
@@ -287,13 +285,11 @@ const CustomizedAccordions: React.FC = () => {
                 <IoIosArrowDropdownCircle
                   className={expanded === "panel8" ? "arrow active" : "arrow"}
                 />
-                Lorem ipsum dolor sit amet, consectetur adipi?
+                WHEN IS GENERAL MINT?
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography>
-                Lorem ipsum dolor sit amet, consectetur adipi?
-              </Typography>
+              <Typography>- Public Launch begins on Dec. 5th</Typography>
             </AccordionDetails>
           </Accordion>
         </div>

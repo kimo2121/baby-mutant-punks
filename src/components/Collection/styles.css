@@ -10,6 +10,8 @@
 }
 .each-item img {
   margin: 20px auto;
+  width: 333px;
+  height: 333px;
 }
 .collection h1 {
   color: white;

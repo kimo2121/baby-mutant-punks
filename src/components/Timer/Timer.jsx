@@ -27,10 +27,9 @@ const getTimeHours = (time) => ((time % daySeconds) / hourSeconds) | 0;
 const getTimeDays = (time) => (time / daySeconds) | 0;
 
 const Timer = ({ strokeWidth }) => {
-  const stratTime = Date.now() / 1000; // use UNIX timestamp in seconds
-  const endTime = stratTime + 243248; // use UNIX timestamp in seconds
-
-  const remainingTime = endTime - stratTime;
+  const startTime = Date.now() / 1000; // use UNIX timestamp in seconds
+  // const endTime = startTime + 1638727200 / 1000; // use UNIX timestamp in seconds
+  const remainingTime = 1638727200 / 1000;
   const days = Math.ceil(remainingTime / daySeconds);
   const daysDuration = days * daySeconds;
 

@@ -12,7 +12,7 @@ const MintComponent = () => {
       <div className="mint-right">
         <h1>Connect</h1>
         <button className="mint-btn">MINT</button>
-        <p>Pre-Sale price: 0.75 Solana</p>
+        <p>Pre-Sale price: 0.55 Solana</p>
         <img src={Solana} alt="" />
       </div>
     </div>

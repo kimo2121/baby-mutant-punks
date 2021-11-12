@@ -11,37 +11,31 @@ const MutantPunks2 = () => {
       <div className="left-mutant2">
         <img src={babyMutant} alt="" />
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum
-          est ultricies integer quis. Iaculis urna id volutpat.
+          A collection of 10,000 unique, randomly generated art pieces, hand
+          selected by a group of punks subverting the traditional art world.
+          <br />
+          Join us on our journey of growing an amazing community for the people.
+          <br />
+          We are giving away 2 Rolexes OR 2 Mutant Ape Yacht Clubs NFT’s, 2
+          Degenerate Ape Academy NFT’s, and 50 Baby Mutant Punks. Read Roadmap
+          for more details.
         </p>
       </div>
       <div className="right-mutant2">
         <div className="each-step2">
           <img src={launch} alt="" />
           <div>
-            <h3>Launch</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
-            </p>
+            <h3>LAUNCH</h3>
+            <p>Pre-Sale begins on December 2nd @6PM EST.</p>
+            <p>Public Launch begins on December 5th @6PM EST.</p>
           </div>
         </div>
+
         <div className="each-step2">
           <img src={value} alt="" />
           <div>
-            <h3>Value</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
-            </p>
-          </div>
-        </div>
-        <div className="each-step2">
-          <img src={secury} alt="" />
-          <div>
-            <h3>Secury</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
-            </p>
+            <h3>VALUE</h3>
+            <p>0.55 Solana.</p>
           </div>
         </div>
       </div>

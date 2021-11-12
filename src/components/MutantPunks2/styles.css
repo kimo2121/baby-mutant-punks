@@ -25,6 +25,8 @@
 }
 .each-step2 img {
   margin-right: 20px;
+  width: 120px;
+  height: 120px;
 }
 .each-step2 p {
   width: 344px;
