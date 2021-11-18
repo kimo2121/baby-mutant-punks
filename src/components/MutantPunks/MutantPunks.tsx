@@ -1,12 +1,13 @@
 import React from "react";
 import babyMutant from "../../assets/babyMutant.png";
-import baby1 from "../../assets/baby1.png";
-import baby2 from "../../assets/baby2.png";
-import baby3 from "../../assets/baby3.png";
-import baby4 from "../../assets/baby4.png";
+import baby1 from "../../assets/banner/baby1.png";
+import baby2 from "../../assets/banner/baby2.png";
+import baby3 from "../../assets/banner/baby3.png";
+import baby4 from "../../assets/banner/baby4.png";
 import "./styles.css";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { FaDiscord } from "react-icons/fa";
+
 const MutantPunks = () => {
   return (
     <div className="mutant-punks">

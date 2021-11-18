@@ -3,6 +3,7 @@ import Timer from "../Timer/Timer";
 import Solana from "../../assets/solana.png";
 import waves from "../../assets/waves.png";
 import "./styles.css";
+import Mint from "../Mint/Mint";
 
 const MintComponent = () => {
   return (
@@ -11,7 +12,8 @@ const MintComponent = () => {
       <Timer strokeWidth="15" />
       <div className="mint-right">
         <h1>Connect</h1>
-        <button className="mint-btn">MINT</button>
+        <Mint />
+        {/* <button >MINT</button> */}
         <p>Pre-Sale price: 0.55 Solana</p>
         <img src={Solana} alt="" />
       </div>

@@ -14,9 +14,7 @@
   z-index: -1;
   object-fit: contain;
 }
-.mint-btn {
-  background-image: linear-gradient(#00ffa3, #dc1fff);
-}
+
 .mint-right {
   margin-left: 100px;
 }
@@ -28,16 +26,7 @@
   font-size: 42px;
   color: white;
 }
-.mint-btn {
-  width: 190px;
-  text-align: center;
-  font-size: 23px;
-  border-radius: 8px;
-  outline: none;
-  border: none;
-  color: white;
-  height: 31px;
-}
+
 @media screen and (max-width: 990px) {
   .mint-component {
     flex-direction: column;

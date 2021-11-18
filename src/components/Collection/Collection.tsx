@@ -1,10 +1,10 @@
 import React from "react";
 import Slider from "react-slick";
 import "./styles.css";
-import baby1 from "../../assets/baby1.png";
-import baby2 from "../../assets/baby2.png";
-import baby3 from "../../assets/baby3.png";
-import baby4 from "../../assets/baby4.png";
+import baby1 from "../../assets/banner/baby1.png";
+import baby2 from "../../assets/banner/baby2.png";
+import baby3 from "../../assets/banner/baby3.png";
+import baby4 from "../../assets/banner/baby4.png";
 import baby5 from "../../assets/baby5.png";
 import baby6 from "../../assets/baby6.png";
 import baby7 from "../../assets/baby7.png";

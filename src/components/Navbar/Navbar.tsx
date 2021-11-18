@@ -3,6 +3,8 @@ import "./navbar.css";
 import logo from "../../assets/logo.png";
 import { ReactComponent as Close } from "../../assets/close.svg";
 import { ReactComponent as Menu } from "../../assets/menu.svg";
+import { WalletMultiButton } from "@solana/wallet-adapter-material-ui";
+
 const Navbar = () => {
   const [state, setstate] = useState(false);
   return (
@@ -16,7 +18,7 @@ const Navbar = () => {
         <a href="/">Home</a>
         <a href="/about">About Us</a>
         <a href="/attributes">Attributes</a>
-        <button className="connect-btn">CONNECT WALLET</button>
+        <WalletMultiButton className="mob-connect-btn" />
       </div>
       <div className={state ? "mob-menu active" : "mob-menu"}>
         <Close onClick={() => setstate(false)} className="close-icon" />
@@ -32,7 +34,7 @@ const Navbar = () => {
       </div>
       <div className="mob-menu-btn-container">
         <Menu onClick={() => setstate(true)} className="menu-icon" />
-        <button className="mob-connect-btn">CONNECT WALLET</button>
+        <WalletMultiButton className="mob-connect-btn" />
       </div>
     </div>
   );

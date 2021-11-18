@@ -6,6 +6,13 @@
   align-items: center;
   justify-content: space-between;
 }
+.MuiDialog-scrollPaper,
+.MuiDialog-paper,
+.MuiPaper-elevation24,
+.MuiDialogContent-root .MuiButton-label {
+  color: white !important;
+}
+
 .internal-links a {
   color: white;
   text-decoration: none;
