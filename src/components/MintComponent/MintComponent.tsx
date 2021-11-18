@@ -9,7 +9,7 @@ const MintComponent = () => {
   return (
     <div className="mint-component">
       <img src={waves} alt="" className="waves" />
-      <Timer strokeWidth="15" />
+      <Timer mintStartAt={1638478800} />
       <div className="mint-right">
         <h1>Connect</h1>
         <Mint />
