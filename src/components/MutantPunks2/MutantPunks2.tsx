@@ -36,8 +36,9 @@ const MutantPunks2 = () => {
         <div className="each-step2">
           <img src={value} alt="" />
           <div>
-            <h3>VALUE</h3>
-            <p>0.55 Solana.</p>
+            <h3>PRICE</h3>
+            <p>Pre-Sale 0.55 Solana.</p>
+            <p>Main Sale 0.75 Solana.</p>
           </div>
         </div>
       </div>
