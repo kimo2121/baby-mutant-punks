@@ -263,7 +263,7 @@ const CustomizedAccordions: React.FC = () => {
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography>- 0.55 Solana.</Typography>
+              <Typography>- 0.75 Solana.</Typography>
             </AccordionDetails>
           </Accordion>
           <Accordion
@@ -289,7 +289,9 @@ const CustomizedAccordions: React.FC = () => {
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography>- Public Launch begins on Dec. 5th</Typography>
+              <Typography>
+                - Public Launch begins on Dec. 5th @ 3:00 PM PST
+              </Typography>
             </AccordionDetails>
           </Accordion>
         </div>

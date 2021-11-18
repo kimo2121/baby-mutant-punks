@@ -10,9 +10,9 @@ const Attributes = () => {
       <div className="bk1">
         <Rarity />
       </div>
-      <div className="bk2">
+      {/* <div className="bk2">
         <NFTAttributes />
-      </div>
+      </div> */}
       <div className="bk1">
         <Collection />
       </div>
