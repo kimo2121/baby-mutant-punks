@@ -14,6 +14,7 @@ const MintComponent = () => {
         <h1>Connect</h1>
         <Mint />
         {/* <button >MINT</button> */}
+        <p>Pre-Sale price: 0.55 Solana</p>
         <p>Main Sale price 0.75 Solana</p>
         <img src={Solana} alt="" />
       </div>
